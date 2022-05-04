@@ -28,3 +28,7 @@ Route::group(['prefix' => 'data', 'as' => 'data.'], function(){
     Route::get('/detail/{id}', [DataController::class, 'show'])->name('show');
     Route::delete('/delete/{id}', [DataController::class, 'destroy'])->name('delete-data');
 });
+
+Route::get('/halo', function () {
+    return view('composer');
+});

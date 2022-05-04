@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12524947d8c752f84bc21aaaede06bfa",
+    "content-hash": "c00ee6535d93dcc56a7b4f0d2a35e007",
     "packages": [
+        {
+            "name": "azhar416/composer-test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/azhar416/Composer-Test.git",
+                "reference": "788fd9941544c8481c9b41d8181210af29cfe968"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/azhar416/Composer-Test/zipball/788fd9941544c8481c9b41d8181210af29cfe968",
+                "reference": "788fd9941544c8481c9b41d8181210af29cfe968",
+                "shasum": ""
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "azhar\\helloworld\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "azhar416",
+                    "email": "rar.azhar.416@gmail.com"
+                }
+            ],
+            "description": "Simple hello world Composer package.",
+            "support": {
+                "issues": "https://github.com/azhar416/Composer-Test/issues",
+                "source": "https://github.com/azhar416/Composer-Test/tree/master"
+            },
+            "time": "2022-05-04T10:52:35+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.9.3",
@@ -7734,7 +7775,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "azhar416/composer-test": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
